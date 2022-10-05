@@ -1,0 +1,39 @@
+<div class="relative mt-6">
+  <input type="text" [type]="type" [name]="name" placeholder=" " class="
+                  peer
+                  text-body-s
+                  font-normal
+                  placeholder-transparent
+                  appearance-none
+                  block
+                  w-full
+                  h-11
+                  pt-5
+                  pb-2
+                  px-5
+                  leading-tight
+                  focus:outline-none
+                  border-2
+                  border-color-primary
+                  rounded-lg
+                "/>
+  <label [for]="name" class="
+                  pointer-events-none
+                  absolute
+                  font-semibold
+                  transition-all
+                  duration-300
+                  z-10
+                  -top-2
+                  left-5
+                  px-2
+                  text-xs
+                  bg-white
+                  peer-placeholder-shown:top-3
+                  peer-placeholder-shown:left-5
+                  peer-placeholder-shown:text-body-s
+                  peer-focus:-top-2
+                  peer-focus:px-2
+                  peer-focus:text-xs
+                ">{{placeholder}}</label>
+</div>
