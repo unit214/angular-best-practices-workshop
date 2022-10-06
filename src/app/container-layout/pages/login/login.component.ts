@@ -13,7 +13,7 @@ export class LoginComponent {
 
   }
 
-  login() {
+  onLoginClick() {
     console.log("success");
     this.router.navigate(['/', 'success'])
   }
