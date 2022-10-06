@@ -12,6 +12,10 @@ module.exports = {
       white: "#ffffff",
       gray: "#c6c6c6",
     },
+    minWidth: {
+      'sm': '600px',
+      'md': '768px'
+    }
   },
   plugins: [],
 }
